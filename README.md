@@ -65,4 +65,3 @@ docker-compose  \
   exec postgres env PGOPTIONS="--search_path=inventory" \
   bash -c 'psql -U $POSTGRES_USER postgres'
 ```
-test commit
